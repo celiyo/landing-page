@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-content">
+        <a class="site-logo" href="index.html">WebDev</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="site-content">
+      <section class="site-hero">
+        <img src="/assets/images/hero-img.jpg" alt="Hero Image" />
+        <div class="site-hero-text">
+          <h1>Your business, our speciality</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ac turpis egestas integer eget aliquet
+              nibh praesent tristique magna. In massa tempor nec feugiat nisl pretium fusce. Nunc
+              consequat interdum varius sit amet. Proin sagittis nisl rhoncus mattis rhoncus urna
+              neque viverra justo. Sed id semper risus in. Fermentum odio eu feugiat pretium.
+              Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Sed
+              vulputate odio ut enim. Nulla posuere sollicitudin aliquam ultrices sagittis orci.
+            </p>
+          </div>
+          <figure>
+            <img src="assets/images/about-img.jpg" alt="WebDev Team" class="our-team" />
+            <figcaption>WebDev Team</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="contact">
+        <img src="assets/images/map-img.jpg" alt="Contact Map" />
+        <div class="contact-content">
+          <h2>Contact me</h2>
+          <form class="contact-form">
+            <div class="form-item">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Jane Doe" />
+            </div>
+            <div class="form-item">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="jane.doe@mail.com" />
+            </div>
+            <div class="form-item">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>WebDev &copy; 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
